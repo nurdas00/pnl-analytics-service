@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: pnl-analytics-service
+
+bybit:
+  domain: TESTNET
+  api-key: zkc3tXKRMnoaVJaGif
+  api-secret: aZjlV8Dvk4N5aY3FSMMgr1mfYK2UEPNq1la7
