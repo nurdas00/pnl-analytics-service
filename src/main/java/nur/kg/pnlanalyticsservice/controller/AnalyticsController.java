@@ -18,6 +18,7 @@ public class AnalyticsController {
     @PostMapping("/orders")
     public ResponseEntity<?> order(@RequestBody OrderDto order){
         orderService.processOrder(order);
+
         return ResponseEntity.ok().build();
     }
 }
