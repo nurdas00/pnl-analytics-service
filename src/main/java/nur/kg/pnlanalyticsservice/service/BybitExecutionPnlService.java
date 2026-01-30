@@ -60,9 +60,6 @@ public class BybitExecutionPnlService {
             }
 
             JsonNode data = root.get("data");
-            if (data == null || !data.isArray()) {
-                return;
-            }
 
             for (JsonNode exec : data) {
                 processExecution(exec);
